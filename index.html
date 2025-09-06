@@ -2,21 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập Quản lý Phòng trọ</title>
+    <link rel="stylesheet" href="room-management-app/src/styles/login.css">
 </head>
 <body>
-    <h1>dung ngungu</h1>
-    <h1>caungu</h1>
-    <p>kkk</p>
-    <p>iii</p>
-      <h1>caungu</h1>
-    <p>kkk</p>
-    <p>iii</p>  <h1>caungu</h1>
-    <p>kkk</p>
-    <p>iii</p>
-      <h1>caungu</h1>
-    <p>kkk</p>
-    <p>iii</p>
+    <div class="login-container">
+        <h2>Đăng nhập Quản lý Phòng trọ</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Tên đăng nhập</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Đăng nhập</button>
+        </form>
+        <div id="loginMessage"></div>
+    </div>
+    <script src="room-management-app/src/scripts/login.js"></script>
 </body>
 </html>

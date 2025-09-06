@@ -1,0 +1,21 @@
+{
+  "name": "room-management-app",
+  "version": "1.0.0",
+  "description": "A room management application for managing room bookings and availability.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined yet.'"
+  },
+  "keywords": [
+    "room",
+    "management",
+    "booking",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
